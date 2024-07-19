@@ -2,10 +2,11 @@
 
 clear all;
 
-basedatapath = 'E:\MATLAB scripts\Stimuli_videos\';
-% basedatapath = 'E:\MonkeyLogic\VideosAndBO\';
-
-cd(basedatapath)
+fileNameWithPath = mfilename('fullpath');
+[filePath,name,ext] = fileparts(fileNameWithPath);
+cd(filePath); 
+addpath(genpath(pwd));
+basedatapath = [filePath '\'];
 
 displayname='propixxRGB120';
 display=load(['dimensions_' displayname '.mat']);
@@ -41,7 +42,7 @@ videodur = 3000; %duration of video (ms)
 framerate = 30; %frames per second. 30 f/s is Allen video framerate.
 nsurfacerange=[5,10]; %range of potential number of surfaces
 nvideos = 5; %number of different videos
-createnewvideos=0;
+createnewvideos=1;
 n_allen_videos = 4;
 
 %BO parameters
