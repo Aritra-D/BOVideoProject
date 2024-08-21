@@ -1,0 +1,4 @@
+# Folder associated with Conda Environment
+BOVideoProject.conda_env/
+# Folder associated With Virtual Environment associated with Python Libraries
+.venv
