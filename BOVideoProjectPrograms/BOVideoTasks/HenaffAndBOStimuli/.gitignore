@@ -1,0 +1,21 @@
+# Image dataset sorted into order 220(Zoom-2 x Video ID-10 x Frames-11) x 512 (pixel) x 512 (pixel)
+imageData.mat
+Videostims_Henaffetal2021.mat
+
+# Folders 
+Stimuli/
+
+
+# MATLAB temorary files
+*.asv
+
+# Files associated to MonkeyLogic
+*.bhv2
+Henaff_stimAndBO.txt
+Henaff_stimAndBO_cfg2.mat
+condplayorder.mat
+
+#Image/Video files used by MonkeyLogic
+*.bmp
+# Random Moving bars
+*.avi

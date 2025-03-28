@@ -1,5 +1,9 @@
 # Folder associated with Conda
 .idea
 
+# Folder associated with virtual environment
+.venv
+
 # Henaff data
 Henaff2021
+data

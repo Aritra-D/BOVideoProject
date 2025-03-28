@@ -1,0 +1,15 @@
+# Folders 
+
+# MATLAB temorary files
+*.asv
+
+# Files associated to MonkeyLogic
+*.bhv2
+videosAndBO.txt
+videosAndBO_cfg2.mat
+condplayorder.mat
+
+#Image/Video files used by MonkeyLogic
+*.bmp
+# Random Moving bars
+*.avi
